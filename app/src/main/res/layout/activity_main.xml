@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                style="@style/LayoutStyle"
+                tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <ImageView
+        style="@style/PeoplePartyingImageView"
+        android:contentDescription="@string/people_partying"
+        android:src="@drawable/people_partying"/>
+
+    <LinearLayout
+        style="@style/LayoutStyle"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/search"
+            style="@style/MenuOptionsTextView"
+            android:layout_marginBottom="@dimen/MenuOptionsTextView_marginBottom"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:drawablePadding="@dimen/MenuOptionsTextVIewDrawablePadding"
+            android:paddingBottom="@dimen/MenuOptionsTextViewPadding"
+            android:paddingLeft="@dimen/MenuOptionsTextViewPadding"
+            android:paddingTop="@dimen/MenuOptionsTextViewPadding"
+            android:text="@string/Search"/>
+
+        <TextView
+            android:id="@+id/nowPlaying"
+            style="@style/MenuOptionsTextView"
+            android:layout_marginBottom="@dimen/MenuOptionsTextView_marginBottom"
+            android:drawableLeft="@drawable/ic_headset_black_24dp"
+            android:drawablePadding="@dimen/MenuOptionsTextVIewDrawablePadding"
+            android:paddingBottom="@dimen/MenuOptionsTextViewPadding"
+            android:paddingLeft="@dimen/MenuOptionsTextViewPadding"
+            android:paddingTop="@dimen/MenuOptionsTextViewPadding"
+            android:text="@string/Now_Playing"/>
+
+        <TextView
+            android:id="@+id/myMusic"
+            style="@style/MenuOptionsTextView"
+            android:layout_marginBottom="@dimen/MenuOptionsTextView_marginBottom"
+            android:drawableLeft="@drawable/ic_list_black_24dp"
+            android:drawablePadding="@dimen/MenuOptionsTextVIewDrawablePadding"
+            android:paddingBottom="@dimen/MenuOptionsTextViewPadding"
+            android:paddingLeft="@dimen/MenuOptionsTextViewPadding"
+            android:paddingTop="@dimen/MenuOptionsTextViewPadding"
+            android:text="@string/My_Music"/>
+
+        <TextView
+            android:id="@+id/store"
+            style="@style/MenuOptionsTextView"
+            android:drawableLeft="@drawable/ic_local_grocery_store_black_24dp"
+            android:drawablePadding="@dimen/MenuOptionsTextVIewDrawablePadding"
+            android:paddingBottom="@dimen/MenuOptionsTextViewPadding"
+            android:paddingLeft="@dimen/MenuOptionsTextViewPadding"
+            android:paddingTop="@dimen/MenuOptionsTextViewPadding"
+            android:text="@string/Store"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/PurposeTextView"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/PurposeTextViewPaddingLeft"
+        android:paddingRight="@dimen/PurposeTextVIewPaddingRight"
+        android:text="@string/PurposeOfTheHomeScreen"/>
+
+
+</RelativeLayout>

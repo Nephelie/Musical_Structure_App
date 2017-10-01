@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                style="@style/LayoutStyle"
+                tools:context="com.example.android.musicalstructure.StoreActivity">
+
+    <ImageView
+        style="@style/BlackBackgroundImageView"
+        android:contentDescription="@string/blackBackground"/>
+
+    <TextView
+        android:id="@+id/top_songs"
+        style="@style/TopSongs_AlbumsTextView"
+        android:layout_alignBottom="@+id/searchButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/TopAlbums_SongsTextView_marginLeft"
+        android:text="Top Songs"/>
+
+
+    <ImageView
+        style="@style/Button"
+        android:layout_marginTop="@dimen/searchIconButton_marginTop"
+        android:layout_toLeftOf="@+id/searchButton"
+        android:contentDescription="@string/search_icon"
+        android:src="@drawable/ic_search_black_24dp"/>
+
+    <Button
+        android:id="@+id/searchButton"
+        style="@style/SearchButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/searchButton_marginRight"
+        android:text="@string/Search"/>
+
+    <ImageView
+        android:id="@+id/song1"
+        style="@style/SmallNoteImageView"
+        android:layout_below="@+id/top_songs"
+        android:layout_marginLeft="@dimen/TopSongsImageView1_marginLeft"
+        android:layout_marginTop="@dimen/TopSongsImageView_marginTop"
+        android:contentDescription="@string/Note"/>
+
+    <ImageView
+        android:id="@+id/song2"
+        style="@style/SmallNoteImageView"
+        android:layout_below="@+id/top_songs"
+        android:layout_marginLeft="@dimen/TopSongsImageView2_marginLeft"
+        android:layout_marginTop="@dimen/TopSongsImageView_marginTop"
+        android:layout_toRightOf="@+id/song1"
+        android:contentDescription="@string/Note"
+        />
+
+    <ImageView
+        android:id="@+id/song3"
+        style="@style/SmallNoteImageView"
+        android:layout_below="@+id/top_songs"
+        android:layout_marginLeft="@dimen/TopSongsImageView3_marginLeft"
+        android:layout_marginRight="@dimen/TopSongsImageView3_marginRight"
+        android:layout_marginTop="@dimen/TopSongsImageView_marginTop"
+        android:layout_toRightOf="@+id/song2"
+        android:contentDescription="@string/Note"/>
+
+    <TextView
+        android:id="@+id/details1"
+        style="@style/SongNameStoreActivity"
+        android:layout_below="@+id/song1"
+        android:layout_marginLeft="@dimen/TopSongsDetails1_marginLeft"
+        android:text="Song Name \nThe Artist"/>
+
+    <TextView
+        android:id="@+id/details2"
+        style="@style/SongNameStoreActivity"
+        android:layout_below="@+id/song2"
+        android:layout_marginLeft="@dimen/TopSongsDetails2_marginLeft"
+        android:layout_toRightOf="@+id/details1"
+        android:text="Song Name \nThe Artist"/>
+
+    <TextView
+        android:id="@+id/details3"
+        style="@style/SongNameStoreActivity"
+        android:layout_below="@+id/song3"
+        android:layout_marginLeft="@dimen/TopSongsDetails3_marginLeft"
+        android:layout_marginRight="@dimen/TopSongsDetails3_marginRight"
+        android:layout_toRightOf="@+id/details2"
+        android:text="Song Name \nThe Artist"/>
+
+    <Button
+        style="@style/SeeMoreButton"
+        android:layout_below="@+id/details3"
+        android:text="@string/See_more"/>
+
+    <TextView
+        android:id="@+id/top_albums"
+        style="@style/TopSongs_AlbumsTextView"
+        android:layout_above="@+id/album1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/TopAlbumsTextView_marginBottom"
+        android:layout_marginLeft="@dimen/TopAlbums_SongsTextView_marginLeft"
+        android:text="@string/Top_Albums"/>
+
+    <ImageView
+        android:id="@+id/album1"
+        style="@style/TopAlbumsImageView"
+        android:layout_above="@+id/details1album"
+        android:layout_marginLeft="@dimen/TopAlbumsImageView1_marginLeft"
+        android:contentDescription="@string/disk"/>
+
+    <TextView
+        android:id="@+id/details1album"
+        style="@style/TopAlbumsTextView"
+        android:layout_marginBottom="@dimen/TopAlbumsDetails_marginBottom"
+        android:layout_marginLeft="@dimen/TopAlbumsDetails1_marginLeft"
+        android:text="Album Name \nThe Artist"/>
+
+    <ImageView
+        style="@style/TopAlbumsImageView"
+        android:layout_above="@+id/details2album"
+        android:layout_marginLeft="@dimen/TopAlbumsImageView2_marginLeft"
+        android:layout_toRightOf="@+id/album1"
+        android:contentDescription="@string/disk"/>
+
+    <TextView
+        android:id="@+id/details2album"
+        style="@style/TopAlbumsTextView"
+        android:layout_marginBottom="@dimen/TopAlbumsDetails_marginBottom"
+        android:layout_marginLeft="@dimen/TopAlbumsDetails2_marginLeft"
+        android:layout_toRightOf="@+id/details1album"
+        android:text="Album Name \nThe Artist"/>
+
+    <Button
+        style="@style/SeeMoreButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/details2album"
+        android:text="@string/See_more"/>
+
+    <TextView
+        style="@style/PurposeTextView"
+        android:layout_below="@+id/top_songs"
+        android:paddingLeft="@dimen/PurposeTextViewPaddingLeft"
+        android:paddingRight="@dimen/PurposeTextVIewPaddingRight"
+        android:text="@string/PurposeOfTheStoreScreen"/>
+
+</RelativeLayout>
+

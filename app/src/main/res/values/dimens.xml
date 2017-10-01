@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="PurposeTextVIewPaddingRight">10dp</dimen>
+    <dimen name="PurposeTextViewPaddingLeft">10dp</dimen>
+
+    <dimen name="MenuOptionsTextViewPadding">15dp</dimen>
+    <dimen name="MenuOptionsTextVIewDrawablePadding">15dp</dimen>
+    <dimen name="MenuOptionsTextView_marginBottom">1dp</dimen>
+
+    <dimen name="ghostImageView_marginTop">140dp</dimen>
+    <dimen name="ghostImageView_marginBottom">20dp</dimen>
+
+    <dimen name="MyMusicPurposeTextView_marginTop">5dp</dimen>
+    <dimen name="NowPlayingPurposeTextView_marginTop">5dp</dimen>
+    <dimen name="SearchPurposeTextView_paddingBottom">5dp</dimen>
+
+    <dimen name="addANewPlaylistPaddingLeft">20dp</dimen>
+    <dimen name="addANewPlaylistPaddingTop">10dp</dimen>
+    <dimen name="addANewPlaylistPaddingBottom">10dp</dimen>
+    <dimen name="addANewPlaylistDrawablePadding">10dp</dimen>
+
+    <dimen name="goToStoreButton_marginTop">30dp</dimen>
+    <dimen name="goToMyMusicButton_marginTop">16dp</dimen>
+    <dimen name="goToMyMusicButton_marginLeft">10dp</dimen>
+
+    <dimen name="NoteImageView_marginTop">70dp</dimen>
+
+    <dimen name="LeftArrow_marginLeft">5dp</dimen>
+    <dimen name="LeftArrow_marginTop">12dp</dimen>
+
+    <dimen name="nameOfTheSong_marginTop">18dp</dimen>
+    <dimen name="nameOfTheSong_marginLeft">65dp</dimen>
+    <dimen name="nameOfTheSong_marginRight">65dp</dimen>
+
+    <dimen name="fastRewind_Forward_marginLR">55dp</dimen>
+    <dimen name="fastRewind_Forward_marginTop">15dp</dimen>
+    <dimen name="playArrow_marginTop">10dp</dimen>
+
+    <dimen name="progressBar_marginBottom">20dp</dimen>
+    <dimen name="progressBar_marginLeft">30dp</dimen>
+    <dimen name="progressBar_marginRight">30dp</dimen>
+
+    <dimen name="EditText_marginTop">8dp</dimen>
+    <dimen name="EditText_marginLeft">10dp</dimen>
+    <dimen name="EditText_marginRight">10dp</dimen>
+    <dimen name="EditText_paddingTop">10dp</dimen>
+    <dimen name="EditText_paddingBottom">10dp</dimen>
+    <dimen name="EditText_paddingLeft">8dp</dimen>
+    <dimen name="EdiText_drawablePadding">20dp</dimen>
+
+    <dimen name="TopAlbumsDetails2_marginLeft">50dp</dimen>
+    <dimen name="TopAlbumsDetails_marginBottom">30dp</dimen>
+    <dimen name="TopAlbumsDetails1_marginLeft">40dp</dimen>
+    <dimen name="TopAlbumsImageView2_marginLeft">20dp</dimen>
+    <dimen name="TopAlbumsImageView1_marginLeft">20dp</dimen>
+    <dimen name="TopAlbumsTextView_marginBottom">25dp</dimen>
+    <dimen name="TopAlbums_SongsTextView_marginLeft">15dp</dimen>
+
+    <dimen name="TopSongsDetails1_marginLeft">20dp</dimen>
+    <dimen name="TopSongsDetails2_marginLeft">40dp</dimen>
+    <dimen name="TopSongsDetails3_marginLeft">40dp</dimen>
+    <dimen name="TopSongsDetails3_marginRight">10dp</dimen>
+    <dimen name="TopSongsImageView_marginTop">15dp</dimen>
+    <dimen name="TopSongsImageView1_marginLeft">10dp</dimen>
+    <dimen name="TopSongsImageView2_marginLeft">20dp</dimen>
+    <dimen name="TopSongsImageView3_marginLeft">20dp</dimen>
+    <dimen name="TopSongsImageView3_marginRight">10dp</dimen>
+
+    <dimen name="searchIconButton_marginTop">10dp</dimen>
+    <dimen name="searchButton_marginRight">5dp</dimen>
+
+
+</resources>

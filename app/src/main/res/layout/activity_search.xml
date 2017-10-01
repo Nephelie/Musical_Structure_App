@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                style="@style/LayoutStyle"
+                tools:context="com.example.android.musicalstructure.SearchActivity">
+
+    <ImageView
+        style="@style/BlackBackgroundImageView"
+        android:contentDescription="@string/blackBackground"/>
+
+    <EditText
+        style="@style/SearchEditText"
+        android:layout_marginLeft="@dimen/EditText_marginLeft"
+        android:layout_marginRight="@dimen/EditText_marginRight"
+        android:layout_marginTop="@dimen/EditText_marginTop"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:drawablePadding="@dimen/EdiText_drawablePadding"
+        android:hint="@string/Search_Everywhere_"
+        android:paddingBottom="@dimen/EditText_paddingBottom"
+        android:paddingLeft="@dimen/EditText_paddingLeft"
+        android:paddingTop="@dimen/EditText_paddingTop"/>
+
+    <TextView
+        style="@style/PurposeTextView"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/SearchPurposeTextView_paddingBottom"
+        android:paddingLeft="@dimen/PurposeTextViewPaddingLeft"
+        android:paddingRight="@dimen/PurposeTextVIewPaddingRight"
+        android:text="@string/PurposeOfTheSearchScreen"/>
+
+</RelativeLayout>

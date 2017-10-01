@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                style="@style/LayoutStyle"
+                tools:context="com.example.android.musicalstructure.NowPlayingActivity">
+
+
+    <ImageView
+        style="@style/BlackBackgroundImageView"
+        android:contentDescription="@string/blackBackground"/>
+
+    <ImageView
+        android:id="@+id/note_image"
+        style="@style/BigNoteImageView"
+        android:layout_marginTop="@dimen/NoteImageView_marginTop"
+        android:contentDescription="@string/Note"
+        android:src="@drawable/note_"/>
+
+    <ImageView
+        android:id="@+id/chevron_left"
+        style="@style/LeftArrow"
+        android:layout_marginLeft="@dimen/LeftArrow_marginLeft"
+        android:layout_marginTop="@dimen/LeftArrow_marginTop"
+        android:contentDescription="@string/left_arrow"
+        android:src="@drawable/ic_chevron_left_black_24dp"/>
+
+    <TextView
+        android:id="@+id/go_to_My_Music"
+        style="@style/goToMyMusic"
+        android:layout_marginLeft="@dimen/goToMyMusicButton_marginLeft"
+        android:layout_marginTop="@dimen/goToMyMusicButton_marginTop"
+        android:layout_toRightOf="@+id/chevron_left"
+        android:text="@string/My_Music"/>
+
+    <TextView
+        style="@style/PurposeTextView"
+        android:layout_below="@+id/go_to_My_Music"
+        android:layout_marginTop="@dimen/NowPlayingPurposeTextView_marginTop"
+        android:paddingLeft="@dimen/PurposeTextViewPaddingLeft"
+        android:paddingRight="@dimen/PurposeTextVIewPaddingRight"
+        android:text="@string/PurposeOfTheNowPlayingScreen"/>
+
+    <TextView
+        android:id="@+id/name_of_song"
+        style="@style/NameOfTheSong_Artist"
+        android:layout_below="@+id/note_image"
+        android:layout_marginLeft="@dimen/nameOfTheSong_marginLeft"
+        android:layout_marginRight="@dimen/nameOfTheSong_marginRight"
+        android:layout_marginTop="@dimen/nameOfTheSong_marginTop"
+        android:text="@string/Name_of_the_song_Artist"/>
+
+    <ImageView
+        android:id="@+id/fast_rewind"
+        style="@style/Button"
+        android:layout_above="@+id/progressBar"
+        android:layout_below="@+id/name_of_song"
+        android:layout_marginRight="@dimen/fastRewind_Forward_marginLR"
+        android:layout_marginTop="@dimen/fastRewind_Forward_marginTop"
+        android:layout_toLeftOf="@+id/play"
+        android:contentDescription="@string/fast_rewind"
+        android:src="@drawable/ic_fast_rewind_black_24dp"/>
+
+
+    <ImageView
+        android:id="@+id/play"
+        style="@style/Button"
+        android:layout_above="@+id/progressBar"
+        android:layout_below="@+id/name_of_song"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/playArrow_marginTop"
+        android:contentDescription="@string/play_arrow"
+        android:src="@drawable/ic_play_arrow_black_24dp"/>
+
+    <ImageView
+        style="@style/Button"
+        android:layout_above="@+id/progressBar"
+        android:layout_below="@+id/name_of_song"
+        android:layout_marginLeft="@dimen/fastRewind_Forward_marginLR"
+        android:layout_marginTop="@dimen/fastRewind_Forward_marginTop"
+        android:layout_toRightOf="@+id/play"
+        android:contentDescription="@string/fast_forward"
+        android:src="@drawable/ic_fast_forward_black_24dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/progressBar_marginBottom"
+        android:layout_marginLeft="@dimen/progressBar_marginLeft"
+        android:layout_marginRight="@dimen/progressBar_marginRight"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="40"
+        android:theme="@style/LinearProgress"/>
+
+
+</RelativeLayout>
+

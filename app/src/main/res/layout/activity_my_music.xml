@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutStyle"
+    tools:context="com.example.android.musicalstructure.MyMusicActivity">
+
+    <ImageView
+        style="@style/BlackBackgroundImageView"
+        android:contentDescription="@string/blackBackground"/>
+
+    <ImageView
+        android:id="@+id/ghost"
+        style="@style/GhostImageView"
+        android:layout_below="@+id/addNewPlaylist"
+        android:layout_marginBottom="@dimen/ghostImageView_marginBottom"
+        android:layout_marginTop="@dimen/ghostImageView_marginTop"
+        android:contentDescription="@string/ghost"
+        android:src="@drawable/ghost"/>
+
+    <TextView
+        style="@style/PurposeTextView"
+        android:layout_below="@+id/addNewPlaylist"
+        android:layout_marginTop="@dimen/MyMusicPurposeTextView_marginTop"
+        android:paddingLeft="@dimen/PurposeTextViewPaddingLeft"
+        android:paddingRight="@dimen/PurposeTextVIewPaddingRight"
+        android:text="@string/PurposeOfTheMyMusicScreen"/>
+
+    <TextView
+        android:id="@+id/addNewPlaylist"
+        style="@style/NewPlaylistTextView"
+        android:drawableLeft="@drawable/ic_add_black_24dp"
+        android:drawablePadding="@dimen/addANewPlaylistDrawablePadding"
+        android:paddingBottom="@dimen/addANewPlaylistPaddingBottom"
+        android:paddingLeft="@dimen/addANewPlaylistPaddingLeft"
+        android:paddingTop="@dimen/addANewPlaylistPaddingTop"
+        android:text="@string/New_Playlist"/>
+
+    <TextView
+        android:id="@+id/emptySectionMessage"
+        style="@style/EmptySectionTextView"
+        android:layout_below="@+id/ghost"
+        android:text="@string/EmptySectionMessage"/>
+
+    <Button
+        android:id="@+id/go_to_store_button"
+        style="@style/Button"
+        android:layout_below="@+id/emptySectionMessage"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/goToStoreButton_marginTop"
+        android:background="@drawable/go_to_store_button"
+        android:text="@string/Go_To_Store"
+        />
+</RelativeLayout>

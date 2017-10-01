@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="people_partying">people partying</string>
+    <string name="Search">Search</string>
+    <string name="Now_Playing">Now Playing</string>
+    <string name="My_Music">My Music</string>
+    <string name="Store">Store</string>
+    <string name="blackBackground">black background</string>
+    <string name="ghost">ghost</string>
+    <string name="New_Playlist">New Playlist</string>
+    <string name="Go_To_Store">Go to Store</string>
+    <string name="Note">Note</string>
+    <string name="left_arrow">left arrow</string>
+    <string name="Name_of_the_song_Artist">Name of the song - Artist</string>
+    <string name="play_arrow">play arrow</string>
+    <string name="fast_rewind">fast rewind</string>
+    <string name="fast_forward">fast forward</string>
+    <string name="Search_Everywhere_">Search Everywhere</string>
+    <string name="search_icon">search icon</string>
+    <string name="See_more">See more</string>
+    <string name="Top_Albums">Top Albums</string>
+    <string name="disk">disk</string>
+    <string name="PurposeOfTheNowPlayingScreen">This screen allows the user to see which song is playing ,pause the song, change song or open his playlists.\nHurdles: Make it functional.\nSolution: Use the MediaPLayer class to add this funtionality.</string>
+    <string name="EmptySectionMessage">This section is currently empty. \nFind more of the music you love.</string>
+    <string name="PurposeOfTheMyMusicScreen">This activity contains the user\'s playlists.The user can click on New playlist to create a new playlist and he can also click on go to store button to buy the songs he want.\nHurdles:The user click on New Playlist to create one and give a name to it.\nSolution:This can be done by using setOnClickListener and by adding some Java code. </string>
+    <string name="PurposeOfTheHomeScreen">This is the Home Screen.It contains the menu options so the user can access any activity from here.\nHurdles: It is preffered to provide a search widget in the Action bar.\nSolution: Use a SearchView as an action view in the app bar.Declare the searchable activity in the Android Manifest file.Then receiving the query using java code,search the data (stored online or in a SQLite database) and presenting the results in a ListView.</string>
+    <string name="PurposeOfTheSearchScreen">This is the Search Screen which can be used to initiate a search from any activity.\nHurdles: Add search functionality.\nSolution: As mentioned in Home Screen :Declare the searchable activity in the Android Manifest file.Then receiving the query using java code,search the data (stored online or in a SQLite database) and presenting the results in a ListView.</string>
+    <string name="PurposeOfTheStoreScreen">This Screen allows the user to buy songs or albums.Hurdles:Show the suggested songs/albums,search for songs or albums and allow the user to buy them using his/hers card.Solution: Use online stored data, implicit and explicit intents.</string>
+
+</resources>
